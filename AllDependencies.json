@@ -1,0 +1,948 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "AvalonEdit/4.4.2.9744": {
+        "type": "package",
+        "compile": {
+          "lib/Net40/_._": {}
+        },
+        "runtime": {
+          "lib/Net40/ICSharpCode.AvalonEdit.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "BouncyCastle.Crypto.dll/1.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "Capgemini.Pipefy.Activities/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/Cards.dll": {},
+          "lib/net40/Database.dll": {},
+          "lib/net40/Organization.dll": {},
+          "lib/net40/Phases.dll": {},
+          "lib/net40/Pipes.dll": {}
+        }
+      },
+      "ClosedXML/0.87.1": {
+        "type": "package",
+        "dependencies": {
+          "DocumentFormat.OpenXml": "2.5.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/ClosedXML.dll": {}
+        }
+      },
+      "Connector.Salesforce.Activities/1.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ExecuteSOQL.dll": {}
+        }
+      },
+      "Connector.Twitter.Activities/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "TweetMoaSharp": "4.0.3"
+        },
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ConnectorTwitter_TweetMoaSharp.dll": {}
+        }
+      },
+      "CredentialManagement/1.0.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "CredentialManagement"
+        ],
+        "compile": {
+          "lib/net35/_._": {}
+        },
+        "runtime": {
+          "lib/net35/CredentialManagement.dll": {}
+        }
+      },
+      "CsvHelper/2.13.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40-client/_._": {}
+        },
+        "runtime": {
+          "lib/net40-client/CsvHelper.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/DocumentFormat.OpenXml.dll": {}
+        }
+      },
+      "DocX/1.0.0.19": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/DocX.dll": {}
+        }
+      },
+      "EPPlus/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net20/_._": {}
+        },
+        "runtime": {
+          "lib/net20/EPPlus.dll": {}
+        }
+      },
+      "FontAwesome.WPF/4.7.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/FontAwesome.WPF.dll": {}
+        }
+      },
+      "ImageParseActivities/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/ImageParseActivity.dll": {}
+        }
+      },
+      "Microsoft.Activities.Extensions/2.0.6.9": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Activities"
+        ],
+        "compile": {
+          "lib/Net45/_._": {}
+        },
+        "runtime": {
+          "lib/Net45/Microsoft.Activities.Extensions.Design.dll": {},
+          "lib/Net45/Microsoft.Activities.Extensions.dll": {}
+        }
+      },
+      "Microsoft.Exchange.WebServices/2.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/40/_._": {}
+        },
+        "runtime": {
+          "lib/40/Microsoft.Exchange.WebServices.Auth.dll": {},
+          "lib/40/Microsoft.Exchange.WebServices.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NPOI/2.2.1": {
+        "type": "package",
+        "dependencies": {
+          "SharpZipLib": "0.86.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/NPOI.OOXML.dll": {},
+          "lib/net40/NPOI.OpenXml4Net.dll": {},
+          "lib/net40/NPOI.OpenXmlFormats.dll": {},
+          "lib/net40/NPOI.dll": {}
+        }
+      },
+      "OutlookActivities/1.0.26": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/OutlookActivity.dll": {}
+        }
+      },
+      "Password_Generator.Activities/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Password_Generator.dll": {}
+        }
+      },
+      "RestSharp/105.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/RestSharp.dll": {}
+        }
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/_._": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      },
+      "TweetMoaSharp/4.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.1"
+        },
+        "compile": {
+          "lib/4.5/_._": {}
+        },
+        "runtime": {
+          "lib/4.5/Hammock.ClientProfile.dll": {},
+          "lib/4.5/TweetSharp.dll": {}
+        }
+      },
+      "Twilio/4.7.2": {
+        "type": "package",
+        "dependencies": {
+          "RestSharp": "105.2.2"
+        },
+        "compile": {
+          "lib/3.5/_._": {}
+        },
+        "runtime": {
+          "lib/3.5/Twilio.Api.dll": {}
+        }
+      },
+      "UiPath.Credentials.Activities/1.1.6479.13204": {
+        "type": "package",
+        "dependencies": {
+          "CredentialManagement": "1.0.2"
+        },
+        "compile": {
+          "lib/net40-client/_._": {}
+        },
+        "runtime": {
+          "lib/net40-client/UiPath.Credentials.Activities.dll": {}
+        }
+      },
+      "UiPath.Excel.Activities/2.3.6682.26635": {
+        "type": "package",
+        "dependencies": {
+          "ClosedXML": "0.87.1",
+          "CsvHelper": "2.13.5",
+          "DocumentFormat.OpenXml": "2.5.0",
+          "EPPlus": "4.0.4",
+          "NPOI": "2.2.1"
+        },
+        "compile": {
+          "lib/net452/_._": {}
+        },
+        "runtime": {
+          "lib/net452/UiPath.Excel.Activities.Design.dll": {},
+          "lib/net452/UiPath.Excel.Activities.dll": {},
+          "lib/net452/UiPath.Excel.dll": {}
+        }
+      },
+      "UiPath.Mail.Activities/1.1.6562.21018": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle": "1.8.1",
+          "Microsoft.Exchange.WebServices": "2.2.0"
+        },
+        "compile": {
+          "lib/net40/_._": {}
+        },
+        "runtime": {
+          "lib/net40/MailKit.dll": {},
+          "lib/net40/MimeKit.dll": {},
+          "lib/net40/UiPath.Mail.Activities.Design.dll": {},
+          "lib/net40/UiPath.Mail.Activities.dll": {},
+          "lib/net40/UiPath.Mail.dll": {}
+        }
+      },
+      "UiPath.WebAPI.Activities/1.1.6479.13209": {
+        "type": "package",
+        "dependencies": {
+          "AvalonEdit": "4.4.2.9744",
+          "Newtonsoft.Json": "8.0.3",
+          "RestSharp": "105.0.1"
+        },
+        "compile": {
+          "lib/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/UiPath.Web.Activities.Design.dll": {},
+          "lib/net45/UiPath.Web.Activities.dll": {},
+          "lib/net45/UiPath.Web.dll": {}
+        }
+      },
+      "UiPathTeam.AttendedRobotStatus.Activities/1.0.30": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/AttendedRobotStatus.dll": {}
+        }
+      },
+      "UiPathTeam.Encryption.Activities/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/Encryption.dll": {}
+        }
+      },
+      "UiPathTeam.TwoStepAuthentication.Activities/1.0.0.2": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle.Crypto.dll": "1.8.1"
+        },
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/UiPath.TwoStepAuthentication.Activities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AvalonEdit/4.4.2.9744": {
+      "sha512": "MQqEPPNWakZgBh5o5TD8mMKDzjrnGdVQ4grypO4jjEyecswri4LmegzsUc1g++jPC1i6C0+/psYr2WVBFBiwkw==",
+      "type": "package",
+      "path": "avalonedit/4.4.2.9744",
+      "files": [
+        "avalonedit.4.4.2.9744.nupkg.sha512",
+        "avalonedit.nuspec",
+        "lib/Net35/ICSharpCode.AvalonEdit.dll",
+        "lib/Net35/ICSharpCode.AvalonEdit.xml",
+        "lib/Net40/ICSharpCode.AvalonEdit.dll",
+        "lib/Net40/ICSharpCode.AvalonEdit.xml"
+      ]
+    },
+    "BouncyCastle/1.8.1": {
+      "sha512": "nH+P67LavO5EcxjKdBxFfRdfdFhivS3Xp3+0br1KcpCI8DM6ksCWy6YYZjk7XFV+VsHGtkUovwIZ/vmCp42geA==",
+      "type": "package",
+      "path": "bouncycastle/1.8.1",
+      "files": [
+        "Readme.txt",
+        "bouncycastle.1.8.1.nupkg.sha512",
+        "bouncycastle.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "BouncyCastle.Crypto.dll/1.8.1": {
+      "sha512": "eT+ncIOBgR8qakQ2Oc3Le0gVAcfGNBQi0EGJlPXniRkNMpRSekWQOqUwWOMutk6g4DYu4mu4g3JYASb/50tquA==",
+      "type": "package",
+      "path": "bouncycastle.crypto.dll/1.8.1",
+      "files": [
+        "bouncycastle.crypto.dll.1.8.1.nupkg.sha512",
+        "bouncycastle.crypto.dll.nuspec",
+        "lib/BouncyCastle.Crypto.dll"
+      ]
+    },
+    "Capgemini.Pipefy.Activities/1.1.0": {
+      "sha512": "nxGnRO5Oph8ejpa/Q+2PVGho3RKiO0iehf8/8AQFsqrmzU3Idl8GDXfZ1s9wowhfS8bDy2TRBhvziB8cmYkAdA==",
+      "type": "package",
+      "path": "capgemini.pipefy.activities/1.1.0",
+      "files": [
+        "capgemini.pipefy.activities.1.1.0.nupkg.sha512",
+        "capgemini.pipefy.activities.nuspec",
+        "lib/net40/Cards.dll",
+        "lib/net40/Database.dll",
+        "lib/net40/Organization.dll",
+        "lib/net40/Phases.dll",
+        "lib/net40/Pipes.dll"
+      ]
+    },
+    "ClosedXML/0.87.1": {
+      "sha512": "2LC0T8bu2G2kt34C4Ig87uZfrRO4MwMVI54e2To7m3DvwAs2Z2Ir86WQuUoW8Txo1uNGSfmu3DpfpQhSX0bIww==",
+      "type": "package",
+      "path": "closedxml/0.87.1",
+      "files": [
+        "closedxml.0.87.1.nupkg.sha512",
+        "closedxml.nuspec",
+        "lib/net35/ClosedXML.dll",
+        "lib/net35/ClosedXML.pdb",
+        "lib/net35/ClosedXML.xml",
+        "lib/net40/ClosedXML.dll",
+        "lib/net40/ClosedXML.pdb",
+        "lib/net40/ClosedXML.xml"
+      ]
+    },
+    "Connector.Salesforce.Activities/1.0.7": {
+      "sha512": "kkILjleSDPSrADOu1dc7nAmlrG4Vc2Qdm/a1QKE8UH5FDeIzZ0oFh9BIlgN7jnlMejhDm8LDcUGlYluQdn/1gg==",
+      "type": "package",
+      "path": "connector.salesforce.activities/1.0.7",
+      "files": [
+        "connector.salesforce.activities.1.0.7.nupkg.sha512",
+        "connector.salesforce.activities.nuspec",
+        "lib/ExecuteSOQL.dll"
+      ]
+    },
+    "Connector.Twitter.Activities/1.0.3": {
+      "sha512": "LQZXosTIN8nOcjO0HHnJTcdrqOlrdFTDkhkl8R4x8VCbPtuzbZcU5rRKUBsR5xm6J2K3BPdCUCeXarq8TrWp8w==",
+      "type": "package",
+      "path": "connector.twitter.activities/1.0.3",
+      "files": [
+        "connector.twitter.activities.1.0.3.nupkg.sha512",
+        "connector.twitter.activities.nuspec",
+        "lib/ConnectorTwitter_TweetMoaSharp.dll"
+      ]
+    },
+    "CredentialManagement/1.0.2": {
+      "sha512": "VkP04/jFXaxT3TkcRhzETYtOrznQxRmQ2J1XJdbXz47Bir7hIzPR7mFZk4GJQ4An4gozW+vonpf+iqTHomAkQw==",
+      "type": "package",
+      "path": "credentialmanagement/1.0.2",
+      "files": [
+        "credentialmanagement.1.0.2.nupkg.sha512",
+        "credentialmanagement.nuspec",
+        "lib/net35/CredentialManagement.dll"
+      ]
+    },
+    "CsvHelper/2.13.5": {
+      "sha512": "fC8DPi/YTcZ8uXFiAeuT9EpsR2TE5cSJ2jg/4tht/Oen6az/djebpYoCQEtI33RfNrSZ533SedOknlWtUTX3fw==",
+      "type": "package",
+      "path": "csvhelper/2.13.5",
+      "files": [
+        "csvhelper.2.13.5.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net20/CsvHelper.dll",
+        "lib/net20/CsvHelper.pdb",
+        "lib/net20/CsvHelper.xml",
+        "lib/net35-client/CsvHelper.dll",
+        "lib/net35-client/CsvHelper.pdb",
+        "lib/net35-client/CsvHelper.xml",
+        "lib/net40-client/CsvHelper.dll",
+        "lib/net40-client/CsvHelper.pdb",
+        "lib/net40-client/CsvHelper.xml",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.dll",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.pdb",
+        "lib/portable-net40+sl5+win8+wpa+wp8/CsvHelper.xml"
+      ]
+    },
+    "DocumentFormat.OpenXml/2.5.0": {
+      "sha512": "H5jnox0hcLwzAjrpNqDPIItjh7dplF1kk1z8LatpI2h75wBgps1MepEttJFKs7xedQReCMHA0tGpNI0H2B+Mrg==",
+      "type": "package",
+      "path": "documentformat.openxml/2.5.0",
+      "files": [
+        "documentformat.openxml.2.5.0.nupkg.sha512",
+        "documentformat.openxml.nuspec",
+        "lib/DocumentFormat.OpenXml.dll"
+      ]
+    },
+    "DocX/1.0.0.19": {
+      "sha512": "ZoKdoM2ZlZ5bCBEtJHrTJMHICW3o9wsh6tStdqIXHh9mCjb+7o4+w5e6DWyNy2nnS5X7Q/eCFYQtyhInWMyc7w==",
+      "type": "package",
+      "path": "docx/1.0.0.19",
+      "files": [
+        "docx.1.0.0.19.nupkg.sha512",
+        "docx.nuspec",
+        "lib/net40/DocX.dll"
+      ]
+    },
+    "EPPlus/4.0.4": {
+      "sha512": "O8LP3wUpJZ9Th0BBAKHbR0hdlnWZw4HEeDtNGTs1cvqGsdywC/L5kBxliJRStKV4K8eMZUjFE5Mov/LU01+OZg==",
+      "type": "package",
+      "path": "epplus/4.0.4",
+      "files": [
+        "epplus.4.0.4.nupkg.sha512",
+        "epplus.nuspec",
+        "lib/net20/EPPlus.XML",
+        "lib/net20/EPPlus.dll",
+        "lib/readme.txt"
+      ]
+    },
+    "FontAwesome.WPF/4.7.0.9": {
+      "sha512": "OTayjoqAQY0yFwh6IS/gQ4g7WkcEDK5ht9Ijz8JZcFh/xrCA+JFqma/lU0D+m56t3ariYNgZZiro46NqH+OqpA==",
+      "type": "package",
+      "path": "fontawesome.wpf/4.7.0.9",
+      "files": [
+        "fontawesome.wpf.4.7.0.9.nupkg.sha512",
+        "fontawesome.wpf.nuspec",
+        "lib/net35/FontAwesome.WPF.dll",
+        "lib/net35/FontAwesome.WPF.xml",
+        "lib/net40/FontAwesome.WPF.dll",
+        "lib/net40/FontAwesome.WPF.xml",
+        "lib/uap10.0/FontAwesome.UWP.XML",
+        "lib/uap10.0/FontAwesome.UWP.dll",
+        "lib/uap10.0/FontAwesome.UWP.pri",
+        "lib/uap10.0/FontAwesome.UWP/FontAwesome.otf",
+        "lib/wp81/FontAwesome.WIN81.dll",
+        "lib/wp81/FontAwesome.WIN81.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "ImageParseActivities/1.3.0": {
+      "sha512": "VOH04/5Or/8w+v8axGsmd+5HggUef3PaqIX7koJx0UJ1oGWgH+a7DS9/ofve5N56FCRBWDBuPy1L+G6b6o3qIQ==",
+      "type": "package",
+      "path": "imageparseactivities/1.3.0",
+      "files": [
+        "imageparseactivities.1.3.0.nupkg.sha512",
+        "imageparseactivities.nuspec",
+        "lib/ImageParseActivity.dll"
+      ]
+    },
+    "Microsoft.Activities.Extensions/2.0.6.9": {
+      "sha512": "yGwK3gYUzzGIzgybBtXsCbcWIj+Dv+gadnaWkmG0WpBs22AV8ZS7deFhAb2pznDoGz0Pj4M7Tt9RwK9VrNzf4A==",
+      "type": "package",
+      "path": "microsoft.activities.extensions/2.0.6.9",
+      "files": [
+        "help/Microsoft.Activities.Extensions Documentation.chm",
+        "lib/Net40/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net40/Microsoft.Activities.Extensions.dll",
+        "lib/Net401/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net401/Microsoft.Activities.Extensions.dll",
+        "lib/Net45/Microsoft.Activities.Extensions.Design.dll",
+        "lib/Net45/Microsoft.Activities.Extensions.dll",
+        "microsoft.activities.extensions.2.0.6.9.nupkg.sha512",
+        "microsoft.activities.extensions.nuspec",
+        "tools/Microsoft.Activities.Extensions.NuGet.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.Exchange.WebServices/2.2.0": {
+      "sha512": "NlkaTD0uWtg9VbiWq0VDWMBPzHFknH3tmstrxt0acrT09LBGqATTjRpsGOODz6tUdX7/dehBinxsf75U5Uw/+A==",
+      "type": "package",
+      "path": "microsoft.exchange.webservices/2.2.0",
+      "files": [
+        "doc/License Terms.rtf",
+        "doc/README.htm",
+        "doc/Redist.txt",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.dll",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.Auth.xml",
+        "lib/40/Microsoft.Exchange.WebServices.dll",
+        "lib/40/Microsoft.Exchange.WebServices.pdb",
+        "lib/40/Microsoft.Exchange.WebServices.xml",
+        "microsoft.exchange.webservices.2.2.0.nupkg.sha512",
+        "microsoft.exchange.webservices.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "newtonsoft.json/8.0.3",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.8.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NPOI/2.2.1": {
+      "sha512": "esdT/yuODxuYCmqcbQ+6DDpAmPbVcJylgpA4leQZOfUcESbD8vYXEDtCTg4AKlWJIPHcbDnxlAtQxMEVw621Mw==",
+      "type": "package",
+      "path": "npoi/2.2.1",
+      "files": [
+        "LICENSE",
+        "Read Me.txt",
+        "Release Notes.txt",
+        "lib/net20/NPOI.OOXML.dll",
+        "lib/net20/NPOI.OpenXml4Net.dll",
+        "lib/net20/NPOI.OpenXmlFormats.dll",
+        "lib/net20/NPOI.XML",
+        "lib/net20/NPOI.dll",
+        "lib/net40/NPOI.OOXML.dll",
+        "lib/net40/NPOI.OpenXml4Net.dll",
+        "lib/net40/NPOI.OpenXmlFormats.dll",
+        "lib/net40/NPOI.XML",
+        "lib/net40/NPOI.dll",
+        "logo/120_120.jpg",
+        "logo/240_240.png",
+        "logo/32_32.jpg",
+        "logo/60_60.jpg",
+        "npoi.2.2.1.nupkg.sha512",
+        "npoi.nuspec"
+      ]
+    },
+    "OutlookActivities/1.0.26": {
+      "sha512": "ef4n8+cq4v1SdfmY/bqIRViqaBKEgb17GeX9kwN2pGyUtZR+Xg1l+3iMlME2/gAzJbGsRP+8FF60OPtpyrgYOA==",
+      "type": "package",
+      "path": "outlookactivities/1.0.26",
+      "files": [
+        "lib/OutlookActivity.dll",
+        "outlookactivities.1.0.26.nupkg.sha512",
+        "outlookactivities.nuspec"
+      ]
+    },
+    "Password_Generator.Activities/5.0.0": {
+      "sha512": "5jWs9I3IlhkRsG1vrbPbnHeqEOXn9y5hb82WABV/8GHgYSH4WXrnQDQSQOvhNx+M5GbZJBHK4R5f7523FzskFg==",
+      "type": "package",
+      "path": "password_generator.activities/5.0.0",
+      "files": [
+        "lib/Password_Generator.dll",
+        "password_generator.activities.5.0.0.nupkg.sha512",
+        "password_generator.activities.nuspec"
+      ]
+    },
+    "RestSharp/105.2.2": {
+      "sha512": "DXROmf/5jnJM5Baqzdqc3dMZZQHKPWhYPB9A2/ZYXLOZp9a4rrdvHBza0+tGazPtE+NezyUDYd3qqz5oaU2GZA==",
+      "type": "package",
+      "path": "restsharp/105.2.2",
+      "files": [
+        "lib/MonoAndroid10/RestSharp.dll",
+        "lib/MonoAndroid10/RestSharp.xml",
+        "lib/MonoTouch10/_._",
+        "lib/Xamarin.iOS10/RestSharp.dll",
+        "lib/Xamarin.iOS10/RestSharp.xml",
+        "lib/net35/RestSharp.dll",
+        "lib/net35/RestSharp.xml",
+        "lib/net4-client/RestSharp.dll",
+        "lib/net4-client/RestSharp.xml",
+        "lib/net4/RestSharp.dll",
+        "lib/net4/RestSharp.xml",
+        "lib/net45/RestSharp.dll",
+        "lib/net45/RestSharp.xml",
+        "lib/net451/RestSharp.dll",
+        "lib/net451/RestSharp.xml",
+        "lib/net452/RestSharp.dll",
+        "lib/net452/RestSharp.xml",
+        "lib/net46/RestSharp.dll",
+        "lib/sl5/RestSharp.dll",
+        "lib/sl5/RestSharp.xml",
+        "lib/windowsphone8/RestSharp.dll",
+        "lib/windowsphone8/RestSharp.xml",
+        "lib/windowsphone81/RestSharp.dll",
+        "lib/windowsphone81/RestSharp.xml",
+        "readme.txt",
+        "restsharp.105.2.2.nupkg.sha512",
+        "restsharp.nuspec"
+      ]
+    },
+    "SharpZipLib/0.86.0": {
+      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
+      "type": "package",
+      "path": "sharpziplib/0.86.0",
+      "files": [
+        "lib/11/ICSharpCode.SharpZipLib.dll",
+        "lib/20/ICSharpCode.SharpZipLib.dll",
+        "lib/SL3/SharpZipLib.Silverlight3.dll",
+        "lib/SL4/SharpZipLib.Silverlight4.dll",
+        "sharpziplib.0.86.0.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    },
+    "TweetMoaSharp/4.0.3": {
+      "sha512": "l/+P1Icm3WTUUZ8aX0bdHz/5ev0Wy14RMGsB/2LKDL6ICrIVmW2Pb4d08pwMRbknfNovR0JKXvWOI5BNLGt35Q==",
+      "type": "package",
+      "path": "tweetmoasharp/4.0.3",
+      "files": [
+        "LICENSE.md",
+        "README.md",
+        "lib/2.0/Hammock.dll",
+        "lib/2.0/LinqBridge.dll",
+        "lib/2.0/TweetSharp.dll",
+        "lib/3.5/Hammock.ClientProfile.dll",
+        "lib/3.5/TweetSharp.dll",
+        "lib/4.0/Hammock.ClientProfile.dll",
+        "lib/4.0/TweetSharp.dll",
+        "lib/4.5/Hammock.ClientProfile.dll",
+        "lib/4.5/TweetSharp.dll",
+        "lib/netstandard1.0/Hammock.ClientProfile.dll",
+        "lib/netstandard1.0/TweetSharp.dll",
+        "lib/portable-win81+wpa81/Hammock.WinRT.dll",
+        "lib/portable-win81+wpa81/Hammock.WinRT.pri",
+        "lib/portable-win81+wpa81/TweetSharp.WinRT.dll",
+        "lib/portable-win81+wpa81/TweetSharp.WinRT.pri",
+        "lib/sl4-wp/Hammock.WindowsPhone.dll",
+        "lib/sl4-wp/ICSharpCode.SharpZipLib.WindowsPhone.dll",
+        "lib/sl4-wp/TweetSharp.WindowsPhone.dll",
+        "lib/sl4-wp71/Hammock.WindowsPhone.Mango.dll",
+        "lib/sl4-wp71/ICSharpCode.SharpZipLib.WindowsPhone.dll",
+        "lib/sl4-wp71/TweetSharp.WindowsPhone.Mango.dll",
+        "lib/sl4/Hammock.Silverlight.dll",
+        "lib/sl4/ICSharpCode.SharpZipLib.Silverlight.dll",
+        "lib/sl4/System.Xml.Linq.dll",
+        "lib/sl4/System.Xml.Linq.xml",
+        "lib/sl4/TweetSharp.Silverlight.dll",
+        "lib/sl4/de/System.Xml.Linq.resources.dll",
+        "lib/sl4/es/System.Xml.Linq.resources.dll",
+        "lib/sl4/fr/System.Xml.Linq.resources.dll",
+        "lib/sl4/it/System.Xml.Linq.resources.dll",
+        "lib/sl4/ja/System.Xml.Linq.resources.dll",
+        "lib/sl4/ko/System.Xml.Linq.resources.dll",
+        "lib/sl4/ru/System.Xml.Linq.resources.dll",
+        "lib/sl4/zh-Hans/System.Xml.Linq.resources.dll",
+        "lib/sl4/zh-Hant/System.Xml.Linq.resources.dll",
+        "tweetmoasharp.4.0.3.nupkg.sha512",
+        "tweetmoasharp.nuspec"
+      ]
+    },
+    "Twilio/4.7.2": {
+      "sha512": "3uElm03YJpkh/L01ysetN8uJcNbDXzWzAcbstj2wEfLC1dYf/8EJ7PwYNZZwH4rZdvE76qrjwoCvPj33yiiXgQ==",
+      "type": "package",
+      "path": "twilio/4.7.2",
+      "files": [
+        "lib/3.5/Twilio.Api.dll",
+        "lib/3.5/Twilio.Api.pdb",
+        "lib/3.5/Twilio.Api.xml",
+        "lib/SL5/Twilio.Api.Silverlight.dll",
+        "lib/SL5/Twilio.Api.Silverlight.pdb",
+        "lib/SL5/Twilio.Api.Silverlight.xml",
+        "lib/WINDOWSPHONE8/Twilio.Api.WindowsPhone.dll",
+        "lib/WINDOWSPHONE8/Twilio.Api.WindowsPhone.pdb",
+        "lib/WINDOWSPHONE8/Twilio.Api.WindowsPhone.xml",
+        "twilio.4.7.2.nupkg.sha512",
+        "twilio.nuspec"
+      ]
+    },
+    "UiPath.Credentials.Activities/1.1.6479.13204": {
+      "sha512": "2C7e17Lk1G6QenZQwA5q0DETGdAb9K34p6SqPcAOdHHyr+BtYSWLWhXn+zNlMF8ZCr51pHCiBPNp33nok2B3Qw==",
+      "type": "package",
+      "path": "uipath.credentials.activities/1.1.6479.13204",
+      "files": [
+        "lib/net40-client/UiPath.Credentials.Activities.dll",
+        "uipath.credentials.activities.1.1.6479.13204.nupkg.sha512",
+        "uipath.credentials.activities.nuspec"
+      ]
+    },
+    "UiPath.Excel.Activities/2.3.6682.26635": {
+      "sha512": "sJtaUUY0whaTssglZYU/ZHIKOhfdHTRju5vvbcV6OVGaJM3pg2XyPhXMb+pIzKPzUF+dxk5+73LTSaj95BN9lQ==",
+      "type": "package",
+      "path": "uipath.excel.activities/2.3.6682.26635",
+      "files": [
+        "lib/net452/UiPath.Excel.Activities.Design.dll",
+        "lib/net452/UiPath.Excel.Activities.dll",
+        "lib/net452/UiPath.Excel.dll",
+        "uipath.excel.activities.2.3.6682.26635.nupkg.sha512",
+        "uipath.excel.activities.nuspec"
+      ]
+    },
+    "UiPath.Mail.Activities/1.1.6562.21018": {
+      "sha512": "6UJhdqbZuza2HafFXxhNImsQB/sYAOs88L3ChTG/qgtN1ZHjw8On7DH6wwUmYUeNxGydu1JoRyM4F8/5IVPMyQ==",
+      "type": "package",
+      "path": "uipath.mail.activities/1.1.6562.21018",
+      "files": [
+        "lib/net40/MailKit.dll",
+        "lib/net40/MailKit.xml",
+        "lib/net40/MimeKit.dll",
+        "lib/net40/MimeKit.xml",
+        "lib/net40/UiPath.Mail.Activities.Design.dll",
+        "lib/net40/UiPath.Mail.Activities.dll",
+        "lib/net40/UiPath.Mail.dll",
+        "uipath.mail.activities.1.1.6562.21018.nupkg.sha512",
+        "uipath.mail.activities.nuspec"
+      ]
+    },
+    "UiPath.WebAPI.Activities/1.1.6479.13209": {
+      "sha512": "BCku8iHL2Dd5VyTTMjVGTcoiHu9AMo3fueLtCRCl0td78hZvz3Jk8V11cgqcdOW5SUv6jR2l9soAmU8QJEy6Zg==",
+      "type": "package",
+      "path": "uipath.webapi.activities/1.1.6479.13209",
+      "files": [
+        "lib/net45/UiPath.Web.Activities.Design.dll",
+        "lib/net45/UiPath.Web.Activities.dll",
+        "lib/net45/UiPath.Web.dll",
+        "uipath.webapi.activities.1.1.6479.13209.nupkg.sha512",
+        "uipath.webapi.activities.nuspec"
+      ]
+    },
+    "UiPathTeam.AttendedRobotStatus.Activities/1.0.30": {
+      "sha512": "jyim2lxRkFM/pmwqOYilsi6dehW1QqRfrF9yb0CQeRH75OddXBL1lIFYJgdjZDXNno1y7WbAklJmexZaKceBSQ==",
+      "type": "package",
+      "path": "uipathteam.attendedrobotstatus.activities/1.0.30",
+      "files": [
+        "lib/AttendedRobotStatus.dll",
+        "uipathteam.attendedrobotstatus.activities.1.0.30.nupkg.sha512",
+        "uipathteam.attendedrobotstatus.activities.nuspec"
+      ]
+    },
+    "UiPathTeam.Encryption.Activities/1.0.4": {
+      "sha512": "DiDQiUgP8+5XB2yEMjovfJ+NmPSKYtxvTg8rEdwgLJWAWRlvYKsje+izSj2BlgcP49SqlYQn9SG2p51XY2Drcg==",
+      "type": "package",
+      "path": "uipathteam.encryption.activities/1.0.4",
+      "files": [
+        "lib/Encryption.dll",
+        "lib/Encryption.pdb",
+        "uipathteam.encryption.activities.1.0.4.nupkg.sha512",
+        "uipathteam.encryption.activities.nuspec"
+      ]
+    },
+    "UiPathTeam.TwoStepAuthentication.Activities/1.0.0.2": {
+      "sha512": "syj3XoQ8yZsQJ98RaLNoGz0/VmealsfwXcw5CMrpRsyFVeqcPa56R/BW0qm9Q9MigEiR96WoI5l5t80jSjKngg==",
+      "type": "package",
+      "path": "uipathteam.twostepauthentication.activities/1.0.0.2",
+      "files": [
+        "lib/UiPath.TwoStepAuthentication.Activities.dll",
+        "lib/UiPath.TwoStepAuthentication.Activities.pdb",
+        "uipathteam.twostepauthentication.activities.1.0.0.2.nupkg.sha512",
+        "uipathteam.twostepauthentication.activities.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.5.2": [
+      "Capgemini.Pipefy.Activities >= 1.1.0",
+      "Connector.Salesforce.Activities >= 1.0.7",
+      "Connector.Twitter.Activities >= 1.0.3",
+      "DocX >= 1.0.0.19",
+      "FontAwesome.WPF >= 4.7.0.9",
+      "ImageParseActivities >= 1.3.0",
+      "Microsoft.Activities.Extensions >= 2.0.6.9",
+      "OutlookActivities >= 1.0.26",
+      "Password_Generator.Activities >= 5.0.0",
+      "Twilio >= 4.7.2",
+      "UiPath.Credentials.Activities >= 1.1.6479.13204",
+      "UiPath.Excel.Activities >= 2.3.6682.26635",
+      "UiPath.Mail.Activities >= 1.1.6562.21018",
+      "UiPath.WebAPI.Activities >= 1.1.6479.13209",
+      "UiPathTeam.AttendedRobotStatus.Activities >= 1.0.30",
+      "UiPathTeam.Encryption.Activities >= 1.0.4",
+      "UiPathTeam.TwoStepAuthentication.Activities >= 1.0.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sarva_000\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "restore": {
+      "projectUniqueName": "hello world",
+      "projectName": "hello world",
+      "projectPath": "C:\\Users\\sarva_000\\Documents\\UiPath\\hello world",
+      "packagesPath": "C:\\Users\\sarva_000\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sarva_000\\Documents\\UiPath\\hello world"
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "Capgemini.Pipefy.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Connector.Salesforce.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
+          "Connector.Twitter.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "DocX": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.19, )"
+          },
+          "FontAwesome.WPF": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[4.7.0.9, )"
+          },
+          "ImageParseActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.3.0, )"
+          },
+          "Microsoft.Activities.Extensions": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.0.6.9, )"
+          },
+          "OutlookActivities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.26, )"
+          },
+          "Password_Generator.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "Twilio": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[4.7.2, )"
+          },
+          "UiPath.Credentials.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6479.13204, )"
+          },
+          "UiPath.Excel.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[2.3.6682.26635, )"
+          },
+          "UiPath.Mail.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6562.21018, )"
+          },
+          "UiPath.WebAPI.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.1.6479.13209, )"
+          },
+          "UiPathTeam.AttendedRobotStatus.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.30, )"
+          },
+          "UiPathTeam.Encryption.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
+          "UiPathTeam.TwoStepAuthentication.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.0.2, )"
+          }
+        }
+      }
+    }
+  }
+}
